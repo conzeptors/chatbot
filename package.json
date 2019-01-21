@@ -2,11 +2,11 @@
   "name": "line-chatbot",
   "version": "1.0.0",
   "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js"
-    },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/conzeptors/chatbot.git"
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/conzeptors/chatbot/issues"
   },
-  "homepage": "https://github.com/conzeptors/chatbot#readme"
+  "homepage": "https://github.com/conzeptors/chatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
 }
